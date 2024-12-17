@@ -1,0 +1,22 @@
+.homepage {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #333; /* Keep your existing background */
+    border-radius: 8px; /* Optional */
+    padding: 20px; /* Add some padding */
+    color: white;
+    height: 100%; /* Ensure it takes up the full height */
+    min-height: calc(100vh - 60px); /* Adjust for the Navbar height */
+    text-align: center; /* Center the text */
+  }
+  
+  .homepage h2 {
+    font-size: 36px; /* Make it larger for emphasis */
+    margin-bottom: 10px;
+  }
+  
+  .homepage p {
+    font-size: 18px; /* Slightly smaller for description */
+  }
+  

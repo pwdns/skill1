@@ -1,0 +1,47 @@
+/* Global container for all pages */
+body, html, .app-container {
+  background-color: #1a1a1a; /* Consistent dark gray background */
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure full height */
+}
+
+/* Main Content Layout (with Sidebar for Homepage) */
+.main-content-with-sidebar {
+  display: grid;
+  grid-template-columns: 250px 1fr 300px; /* Sidebar, Main Feed, Right Sidebar */
+  gap: 20px;
+  flex: 1;
+  padding: 20px;
+  min-height: calc(100vh - 60px); /* Full height minus Navbar */
+}
+
+/* Main Content Layout (Non-Homepage: Centered Content) */
+.main-content-full {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: calc(100vh - 60px); /* Full height minus Navbar */
+  padding: 20px;
+  background-color: #1a1a1a; /* Full gray background for non-homepage */
+}
+
+/* Submit Box Styling (Content in the Center) */
+.centered-box {
+  background-color: #333; /* Darker box background */
+  border-radius: 8px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  max-width: 400px; /* Limit width for responsiveness */
+  width: 100%;
+  text-align: center;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #2c2c2c;
+  color: white;
+}

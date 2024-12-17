@@ -1,0 +1,55 @@
+.upload-blog {
+    text-align: center;
+    padding: 20px;
+}
+
+.upload-blog form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #444; /* Dark theme background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Match AuthPage shadow */
+}
+
+.upload-blog input,
+.upload-blog textarea,
+.upload-blog button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #555; /* Border matching dark theme */
+    border-radius: 6px;
+    background-color: #333; /* Input background matching dark theme */
+    color: white;
+    font-size: 16px;
+    box-shadow: none; /* Unified shadow behavior */
+}
+
+.upload-blog input::placeholder,
+.upload-blog textarea::placeholder {
+    color: #aaa; /* Placeholder text color */
+}
+
+.upload-blog button {
+    background-color: #4a90e2;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 6px;
+}
+
+.upload-blog button:hover {
+    background-color: #357abd; /* Blue hover effect */
+}
+
+.media-preview img,
+.media-preview video {
+    max-width: 100%;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}

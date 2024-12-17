@@ -1,0 +1,21 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  min-height: calc(100vh - 60px); /* Ensure homepage fits the viewport */
+}
+
+.welcome-section {
+  margin-bottom: 30px; /* Space below welcome section */
+  text-align: center;
+}
+
+.blog-list {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1200px; /* Ensure blog list is responsive and centered */
+  box-sizing: border-box;
+}
